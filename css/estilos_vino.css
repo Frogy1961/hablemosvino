@@ -13,7 +13,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 
    @font-face {
     font-family: 'MiFuente';
-    src: url('/fonts/Indie_Flower/IndieFlower-Regular.ttf');
+    src: url('../fonts/Indie_Flower/IndieFlower-Regular.ttf') format('truetype');
    }
 
    body {
