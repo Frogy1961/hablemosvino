@@ -11,8 +11,14 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
    ul { padding-left: 1.4em; list-style:square; }
    q:before, q:after { content:''; }
 
+   @font-face {
+    font-family: 'MiFuente';
+    src: url('/fonts/Indie_Flower/IndieFlower-Regular.ttf');
+   }
+
    body {
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'MiFuente';
+    font-size: 1.1em;
    }
 
    #portada {
@@ -20,8 +26,9 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
    }
    
   #nosotros h3{
+    font-weight: bold;
     color: black;
-    text-shadow: 1px 1px rgb(114, 112, 112);
+    text-shadow: 0px 0px rgb(114, 112, 112);
   }
 
   #blog {
@@ -30,7 +37,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 
   #blog h3{
     color: black;
-    text-shadow: 1px 1px rgb(114, 112, 112);
+    text-shadow: 0px 0px rgb(114, 112, 112);
   }
 
   #footer {
@@ -40,7 +47,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 
   #footer h3{
     color: black;
-    text-shadow: 1px 1px rgb(114, 112, 112);
+    text-shadow: 0px 0px rgb(114, 112, 112);
   }
 
   #footer p{
